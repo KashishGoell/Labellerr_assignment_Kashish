@@ -47,6 +47,8 @@ The test suite focuses on **publicly accessible UI flows and authentication entr
 -git clone https://github.com/KashishGoell/Labellerr_assignment_Kashish.git
 -cd Labellerr_assignment_Kashish
 -After Cypress launches:Select E2E Testing,Choose Chrome as the browser, Click Start E2E Testing in Chrome, Select and run labellerr.cy.js
+-npm install
+-npx cypress open
 
 --- 
 
@@ -76,8 +78,7 @@ The test suite focuses on **publicly accessible UI flows and authentication entr
 
 -Third-party scripts and cross-origin redirects are handled safely
 
-Assertions focus on UI readiness rather than forcing protected workflo
+-Assertions focus on UI readiness rather than forcing protected workflo
 
 
-npm install
-npx cypress open
+
